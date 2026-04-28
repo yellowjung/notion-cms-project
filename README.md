@@ -29,7 +29,11 @@ npm install
 
 ### 2. 환경변수 설정
 
-`.env.local` 파일을 생성하고 아래 값을 입력하세요.
+`.env.local.example` 파일을 복사하여 `.env.local`을 생성하고 값을 입력하세요.
+
+```bash
+cp .env.local.example .env.local
+```
 
 ```env
 NOTION_TOKEN=your_notion_integration_token
@@ -52,31 +56,31 @@ npm run dev
 
 ### Projects DB
 
-| 필드 | 타입 | 설명 |
-|------|------|------|
-| Title | title | 프로젝트명 |
-| Slug | rich_text | URL 식별자 |
-| Description | rich_text | 한 줄 설명 |
-| Tags | multi_select | 기술 스택 태그 |
-| Status | select | Published / Draft |
-| StartDate | date | 시작일 |
-| EndDate | date | 종료일 |
-| GithubUrl | url | GitHub 링크 |
-| DemoUrl | url | 데모 링크 |
-| Thumbnail | files | 대표 이미지 |
-| Featured | checkbox | 메인 노출 여부 |
+| 필드        | 타입         | 설명              |
+| ----------- | ------------ | ----------------- |
+| Title       | title        | 프로젝트명        |
+| Slug        | rich_text    | URL 식별자        |
+| Description | rich_text    | 한 줄 설명        |
+| Tags        | multi_select | 기술 스택 태그    |
+| Status      | select       | Published / Draft |
+| StartDate   | date         | 시작일            |
+| EndDate     | date         | 종료일            |
+| GithubUrl   | url          | GitHub 링크       |
+| DemoUrl     | url          | 데모 링크         |
+| Thumbnail   | files        | 대표 이미지       |
+| Featured    | checkbox     | 메인 노출 여부    |
 
 ### Posts DB
 
-| 필드 | 타입 | 설명 |
-|------|------|------|
-| Title | title | 게시글 제목 |
-| Slug | rich_text | URL 식별자 |
-| Summary | rich_text | 요약 |
-| Tags | multi_select | 카테고리 태그 |
-| Published | checkbox | 공개 여부 |
-| PublishedAt | date | 발행일 |
-| Cover | files | 커버 이미지 |
+| 필드        | 타입         | 설명          |
+| ----------- | ------------ | ------------- |
+| Title       | title        | 게시글 제목   |
+| Slug        | rich_text    | URL 식별자    |
+| Summary     | rich_text    | 요약          |
+| Tags        | multi_select | 카테고리 태그 |
+| Published   | checkbox     | 공개 여부     |
+| PublishedAt | date         | 발행일        |
+| Cover       | files        | 커버 이미지   |
 
 ## 개발 명령어
 

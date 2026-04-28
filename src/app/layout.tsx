@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'NextJS Starter - 모던 웹 스타터킷',
+  title: 'Portfolio - Notion CMS',
   description:
-    'Next.js 15, TypeScript, TailwindCSS, ShadcnUI로 구축된 프로덕션 준비가 완료된 웹 애플리케이션 스타터킷',
+    'Notion API를 CMS로 활용하는 개인 포트폴리오 사이트. 프로젝트, 블로그, About 페이지를 Notion으로 관리합니다.',
 }
 
 export default function RootLayout({

@@ -5,9 +5,12 @@ import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 import { Separator } from '@/components/ui/separator'
 
+// 모바일 내비게이션 항목 정의
 const navItems = [
   { title: '홈', href: '/' },
-  { title: '로그인', href: '/login' },
+  { title: '프로젝트', href: '/projects' },
+  { title: '블로그', href: '/blog' },
+  { title: 'About', href: '/about' },
 ]
 
 interface MobileNavProps {

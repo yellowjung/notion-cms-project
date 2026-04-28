@@ -1,6 +1,8 @@
 # 🤖 Claude Code 개발 지침
 
-**claude-nextjs-starters**는 Next.js 15.5.3 + React 19 기반 모던 웹 애플리케이션 스타터 템플릿입니다.
+**Notion Portfolio CMS**는 Notion API를 CMS로 활용하여 코드 수정 없이 콘텐츠를 관리할 수 있는 개인 포트폴리오 사이트입니다.
+
+상세 프로젝트 요구사항은 @/docs/PRD.md 참조
 
 ## 🛠️ 핵심 기술 스택
 

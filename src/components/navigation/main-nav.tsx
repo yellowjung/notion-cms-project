@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 
+// 메인 내비게이션 항목 정의
 interface NavItem {
   title: string
   href: string
@@ -11,6 +12,9 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { title: '홈', href: '/' },
+  { title: '프로젝트', href: '/projects' },
+  { title: '블로그', href: '/blog' },
+  { title: 'About', href: '/about' },
 ]
 
 export function MainNav() {
